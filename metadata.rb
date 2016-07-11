@@ -6,7 +6,7 @@ source_url 'https://github.com/svanzoest-cookbooks/sysctl/' if respond_to?(:sour
 license 'Apache v2.0'
 description 'Configures sysctl parameters'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '0.8.0'
+version '0.8.1'
 chef_version '>= 12'
 supports 'ubuntu', '>= 12.04'
 supports 'debian', '>= 7.0'
